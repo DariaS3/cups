@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Miso';
+    src: url('fonts/miso-webfont.woff2') format('woff2'),
+         url('fonts/miso-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Miso';
+    src: url('fonts/miso-bold-webfont.woff2') format('woff2'),
+         url('fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+* {
+	margin: 0;
+}
+.fullwidth_container {
+	display: flex;
+	background-color: #fdde7e;
+	min-width: 1200px;
+	min-height: 600px;
+	height: 100vh;
+	justify-content: space-around;
+	align-items: center;
+}
+.fullwidth_container div:first-child,
+.fullwidth_container div:last-child {
+	height: 441px;
+}
+.fullwidth_container div:nth-child(2) {
+	height: 500px;
+}
+.fullwidth_container div {
+	background-color: #fff;
+	flex-basis: 360px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.prise {
+	font-family: 'Miso', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 70px;
+	font-weight: bold;
+	color: #02995b;
+	letter-spacing: 0.025em;
+}
+[name] {
+	font-size: 56px;
+	font-family: 'Miso', Arial, sans-serif;
+	font-weight: normal;
+}
+.description {
+	font-family: 'Lato', Arial, sans-serif;
+	font-weight: 300;
+	width: 160px;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.025em;
+	text-align: center;
+}
